@@ -17,3 +17,11 @@ resource "azurerm_search_service" "rag" {
   location            = azurerm_resource_group.rag.location
   sku = "free"
 }
+
+resource "azurerm_cognitive_account" "rag" {
+  name                = var.openai_account_name
+  location            = azurerm_resource_group.rag.location
+  resource_group_name = azurerm_resource_group.rag.name
+  kind     = "OpenAI"
+  sku_name = "S0"
+}
