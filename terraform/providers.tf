@@ -1,4 +1,12 @@
 terraform {
+  cloud {
+    organization = "adityadudhe1"
+
+    workspaces {
+      name = "terraform-azure-rag-platform"
+    }
+  }
+
   required_version = ">= 1.5"
 
   required_providers {
@@ -7,8 +15,4 @@ terraform {
       version = "~> 4.0"
     }
   }
-}
-
-provider "azurerm" {
-  features {}
 }
