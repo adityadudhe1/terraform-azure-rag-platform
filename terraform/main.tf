@@ -24,4 +24,9 @@ resource "azurerm_cognitive_account" "rag" {
   resource_group_name = azurerm_resource_group.rag.name
   kind     = "OpenAI"
   sku_name = "S0"
+  custom_subdomain_name = var.openai_account_name
+  public_network_access_enabled = true
+  network_acls {
+    default_action = "Allow"
+  }
 }
