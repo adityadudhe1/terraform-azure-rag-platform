@@ -12,7 +12,7 @@ variable "search_service_name" {
 }
 
 variable "openai_account_name" {
-  description = "Azure Opena AI Account Name"
+  description = "Azure Open AI Account Name"
   type = string
 }
 
