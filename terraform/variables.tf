@@ -7,10 +7,12 @@ variable "location" {
 }
 
 variable "search_service_name" {
-  type = string
+  description = "Azure AI Search Service Name"
+  type        = string
 }
 
 variable "openai_account_name" {
+  description = "Azure Opena AI Account Name"
   type = string
 }
 
