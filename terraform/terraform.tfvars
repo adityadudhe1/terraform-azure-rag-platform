@@ -4,6 +4,6 @@ location = "southindia"
 
 storage_account_name = "stragplatform001"
 
-search_service_name = "rag-search"
+search_service_name = "rag-search001"
 
 openai_account_name = "rag-openai"
