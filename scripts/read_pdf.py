@@ -1,3 +1,6 @@
+#Purpose: Extract text from the NVIDIA certification PDF.
+#PDF → Text Extraction
+
 from pypdf import PdfReader
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
