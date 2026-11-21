@@ -1,3 +1,6 @@
+#Purpose: Validate Azure OpenAI deployment connectivity using the gpt-4.1-mini model.
+#Azure Authentication → GPT Model → Response
+
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
