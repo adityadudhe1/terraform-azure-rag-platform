@@ -1,4 +1,4 @@
-#Purpose: Create a vector-enabled Azure AI Search index.
+#4 Purpose: Create a vector-enabled Azure AI Search index.
 #Define Schema → Create Search Index
 import os
 from dotenv import load_dotenv
