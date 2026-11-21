@@ -1,4 +1,4 @@
-#Purpose: Validate Azure OpenAI embedding generation using the text-embedding-3-small model.
+#1 Purpose: Validate Azure OpenAI embedding generation using the text-embedding-3-small model.
 #Text → Embedding → 1536-Dimensional Vector
 
 from openai import OpenAI
