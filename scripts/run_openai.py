@@ -1,4 +1,4 @@
-#Purpose: Validate Azure OpenAI deployment connectivity using the gpt-4.1-mini model.
+#2 Purpose: Validate Azure OpenAI deployment connectivity using the gpt-4.1-mini model.
 #Azure Authentication → GPT Model → Response
 
 from openai import OpenAI
