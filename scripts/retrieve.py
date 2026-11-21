@@ -1,4 +1,4 @@
-#Purpose: Perform vector similarity search and retrieve the most relevant chunks.
+#6 Purpose: Perform vector similarity search and retrieve the most relevant chunks.
 #Question → Embedding → Vector Search → Top Matching Chunks
 import os
 from dotenv import load_dotenv
