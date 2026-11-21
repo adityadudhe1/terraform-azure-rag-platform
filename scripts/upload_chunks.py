@@ -1,3 +1,5 @@
+#Purpose: Generate embeddings for all chunks and upload them into Azure AI Search.
+#Chunks → Embeddings → Azure AI Search Index
 import os
 from dotenv import load_dotenv
 
