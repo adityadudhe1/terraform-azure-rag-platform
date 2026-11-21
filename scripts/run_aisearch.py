@@ -1,3 +1,6 @@
+#Purpose: Validate Azure OpenAI embedding generation using the text-embedding-3-small model.
+#Text → Embedding → 1536-Dimensional Vector
+
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
