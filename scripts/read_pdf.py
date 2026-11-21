@@ -1,4 +1,4 @@
-#Purpose: Extract text from the NVIDIA certification PDF.
+#3 Purpose: Extract text from the NVIDIA certification PDF.
 #PDF → Text Extraction
 
 from pypdf import PdfReader
