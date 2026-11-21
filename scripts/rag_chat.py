@@ -1,3 +1,5 @@
+#Purpose: Combine retrieved chunks with the user question and generate a contextual answer using GPT.
+#Question + Retrieved Chunks - GPT-4.1-mini - Answer
 import os
 
 from dotenv import load_dotenv
